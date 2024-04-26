@@ -1,0 +1,49 @@
+body {
+    background-color: #535258;
+    font-family: Georgia, Courier, monospace;
+    color: rgb(252, 252, 252);
+}
+
+.navigate_bar {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.row {}
+
+.col-7 {}
+
+.col-5 {}
+
+.navigate_logo {
+    background: url(../image/Cyber-Security-PNG-Clipart.png) no-repeat center center;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.col-10 {}
+
+.navigate_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.my_photo {
+    background: url(../image/photo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 450px;
+    height: 450px;
+    margin-left: 35px;
+}
+
+.title_photo {
+    text-align: center;
+    margin-top: 20px;
+}
