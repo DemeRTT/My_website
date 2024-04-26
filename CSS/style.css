@@ -41,9 +41,29 @@ body {
     width: 450px;
     height: 450px;
     margin-left: 35px;
+    border-radius: 16px;
 }
 
 .title_photo {
     text-align: center;
     margin-top: 20px;
+}
+
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: 10px double black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 32px;
+}
+
+#hacked img {
+    margin-top: 20px;
+    width: 25%;
 }
