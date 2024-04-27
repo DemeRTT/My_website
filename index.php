@@ -17,13 +17,16 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 index">
+            <div class="col-12 login">
                 <h1>Авторизуйтесь!</h1>
                 <?php
                 if (!isset($_COOKIE['User'])) {
                     ?>
-                    <a href="/registration.php">Зарегистрируйтесь</a> или <a href="/login.php">войдите</a>, чтобы
-                    просматривать контент!
+                    <div>
+                        <a href="/registration.php"><strong>Зарегистрируйтесь</strong></a> или <a
+                            href="/login.php"><strong>войдите</strong></a>, чтобы
+                        просматривать контент!
+                    </div>
                     <?php
                 } else {
                     // подключение к БД
