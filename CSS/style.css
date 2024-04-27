@@ -28,6 +28,8 @@ body {
 
 .col-10 {}
 
+.col-12 {}
+
 .navigate_text {
     display: flex;
     align-items: center;
