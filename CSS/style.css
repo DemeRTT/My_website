@@ -67,3 +67,9 @@ body {
     margin-top: 20px;
     width: 25%;
 }
+
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
