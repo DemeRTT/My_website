@@ -22,11 +22,11 @@
                 <?php
                 if (!isset($_COOKIE['User'])) {
                     ?>
-                    <div>
+                    <h2>
                         <a href="/registration.php"><strong>Зарегистрируйтесь</strong></a> или <a
                             href="/login.php"><strong>войдите</strong></a>, чтобы
                         просматривать контент!
-                    </div>
+                    </h2>
                     <?php
                 } else {
                     // подключение к БД
