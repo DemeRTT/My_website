@@ -56,7 +56,6 @@ body {
 }
 
 #myButton {
-    width: 100%;
     border: 10px double black;
     border-radius: 15px;
     padding: 10px;
@@ -69,7 +68,7 @@ body {
 }
 
 #myButton:hover {
-    background-color: #240202;
+    background-color: #360404;
 }
 
 #hacked img {
