@@ -9,7 +9,7 @@ if (!$link) {
     die("Ошибка подключения: " . mysqli_connect_error());
 }
 
-$sql = "CREATE DATABASE IF NOT EXIST $dbName";
+$sql = "CREATE DATABASE IF NOT EXISTS $dbName";
 if (!mysqli_query($link, $sql)) {
     echo "Не удалось создать БД";
 }
