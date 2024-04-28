@@ -83,8 +83,36 @@ body {
     flex-direction: column;
 }
 
-.for_reg {}
+.reg {
+    text-align: center;
+    margin-top: 50px;
+}
 
-.form {}
+.for_reg {
+    margin-bottom: 20px;
+}
 
-.btn_reg {}
+.form {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn_reg {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_reg:hover {
+    background-color: #0056b3;
+}

@@ -17,7 +17,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 reg">
                 <h1>Регистрация</h1>
             </div>
         </div>
@@ -44,7 +44,7 @@ $link = mysqli_connect('127.0.0.1', 'root', 'kali', 'name_db');
 
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
-    $username = $_POST['username'];
+    $username = $_POST['login'];
     $pass = $_POST['password'];
 
     if (!$email || !$username || !$pass)
