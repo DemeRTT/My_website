@@ -77,7 +77,7 @@
                     <input class="form" type="text" name="title" placeholder="Заголовок вашего поста">
                     <textarea class="form down_text" name="text" cols="30" rows="10"
                         placeholder="Введите текст вашего поста ..."></textarea>
-                    <button type="submit" class="btn_post" name="submit">Сохранить пост</button>
+                    <div><button type="submit" class="btn_post" name="submit">Сохранить пост</button></div>
                 </form>
             </div>
         </div>

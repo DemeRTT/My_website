@@ -29,8 +29,7 @@ body {
 .col-10 {}
 
 .col-12 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .navigate_text {
@@ -83,6 +82,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: inline-block;
 }
 
 .btn_post:hover {
