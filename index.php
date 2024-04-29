@@ -17,11 +17,13 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 login">
-                <h1>Авторизуйтесь!</h1>
+            <div class="col-12">
                 <?php
                 if (!isset($_COOKIE['User'])) {
                     ?>
+                    <div class="login">
+                        <h1>Авторизуйтесь!</h1>
+                    </div>
                     <h3>
                         <a href="/registration.php"><strong>Зарегистрируйтесь</strong></a> или <a
                             href="/login.php"><strong>войдите</strong></a>, чтобы
@@ -29,7 +31,21 @@
                     </h3>
                     <?php
                 } else {
-                    // подключение к БД
+                    ?>
+                    <div class="login">
+                        <h1>Страница постов</h1>
+                    </div>
+                    <?php
+                    $link = mysqli_connect('127.0.0.1', 'root', 'kali', 'first_db');
+                    $sql = "SELECT * FROM posts";
+                    $res = mysqli_query($link, $sql);
+                    if (mysqli_num_rows($res) > 0) {
+                        while ($post = mysqli_fetch_array($res)) {
+                            echo "<a href='/posts.php?id=" . $post["id"] . "'>" . $post['title'] . "</a><br>";
+                        }
+                    } else {
+                        echo "Записей ещё нет";
+                    }
                 }
                 ?>
             </div>
