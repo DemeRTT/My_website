@@ -83,6 +83,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: inline-block;
+    margin: 10px;
 }
 
 .btn_post:hover {
