@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 reg">
-                <h1>Авторизация</h1>
+                <h1>Вход</h1>
             </div>
         </div>
         <div class="row">
