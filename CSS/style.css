@@ -71,6 +71,28 @@ body {
     background-color: #360404;
 }
 
+.btn_post {
+    border: none;
+    width: 50%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn_post:hover {
+    background-color: #360404;
+}
+
+.hello {
+    text-align: center;
+    margin-top: 10px;
+}
+
 #hacked img {
     margin-top: 20px;
     width: 25%;
