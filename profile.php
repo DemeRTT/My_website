@@ -75,7 +75,8 @@
             <div class="col-12">
                 <form method="POST" action="profile.php">
                     <input class="form" type="text" name="title" placeholder="Заголовок вашего поста">
-                    <input class="form" name="text" cols="30" rows="10" placeholder="Введите текст вашего поста ...">
+                    <textarea class="form down_text" name="text" cols="30" rows="10"
+                        placeholder="Введите текст вашего поста ..."></textarea>
                     <button type="submit" class="btn_post" name="submit">Сохранить пост</button>
                 </form>
             </div>

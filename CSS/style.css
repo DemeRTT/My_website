@@ -82,6 +82,8 @@ body {
     font-size: 32px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    text-align: center;
+    display: inline-block;
 }
 
 .btn_post:hover {
@@ -91,6 +93,10 @@ body {
 .hello {
     text-align: center;
     margin-top: 10px;
+}
+
+.down_post {
+    resize: vertical;
 }
 
 #hacked img {
