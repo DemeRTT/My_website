@@ -64,7 +64,7 @@ body {
     font-family: "Jersey 10", sans-serif;
     font-size: 32px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.3s ease;
 }
 
 #myButton:hover {
@@ -72,16 +72,15 @@ body {
 }
 
 .btn_post {
-    border: none;
-    width: 50%;
-    border-radius: 15px;
+    width: 100%;
     padding: 10px;
+    font-size: 16px;
     background-color: red;
-    color: white;
-    font-family: "Jersey 10", sans-serif;
-    font-size: 32px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.3s ease;
     text-align: center;
     display: inline-block;
 }
