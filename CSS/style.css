@@ -1,0 +1,152 @@
+body {
+    background-color: #535258;
+    font-family: Georgia, Courier, monospace;
+    color: rgb(252, 252, 252);
+}
+
+.navigate_bar {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.row {}
+
+.col-7 {}
+
+.col-5 {}
+
+.navigate_logo {
+    background: url(../image/Cyber-Security-PNG-Clipart.png) no-repeat center center;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.col-10 {}
+
+.col-12 {
+    text-align: center;
+}
+
+.navigate_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.my_photo {
+    background: url(../image/photo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 450px;
+    height: 450px;
+    margin-left: 35px;
+    border-radius: 16px;
+}
+
+.title_photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: 10px double black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#myButton:hover {
+    background-color: #360404;
+}
+
+.btn_post {
+    padding: 10px;
+    font-size: 32px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn_post:hover {
+    background-color: #360404;
+}
+
+.hello {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.down_post {
+    resize: vertical;
+}
+
+#hacked img {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reg {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.for_reg {
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn_reg {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_reg:hover {
+    background-color: #0056b3;
+}
